@@ -385,8 +385,53 @@ section {
     width: 60%;
     height: 600px;
 }
+@media screen and (min-width: 319px){
+    h3{
+        color: white;
+    }
+    .iframe-call{
+        background-color: #000000;
+    }
+}
 
-@media (max-width: 765px) {
+@media screen and (min-width: 319px) and (max-width: 649px){
+    .carousel,
+    .carousel-img {
+        height: 100px;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 649px) {
+
+    .carousel,
+    .carousel-img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .card {
+        width: 250px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo {
+        font-size: 18px
+    }
+}
+@media screen and (max-width: 765px) {
+
+    .carousel,
+    .carousel-img {
+        height: 400px;
+        width: 80%;
+    }
+
+    .card {
+        width: 370px;
+    }
+
     .callserv {
         height: 700px;
         width: 300px;
@@ -429,5 +474,38 @@ section {
     .call {
         width: 80%;
         font-size: 14px;
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 1180px) {
+    .carousel,
+    .carousel-img {
+        height: 600px;
+        width: 90%;
+    }
+
+    .nosotros-call {
+        height: 250px;
+        width: 500px;
+    }
+
+    .card {
+        width: 370px;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+
+    .carousel,
+    .carousel-img {
+        height: 600px;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 1350px) {
+
+    .carousel,
+    .carousel-img {
+        height: 800px;
+        width: 90%;
     }
 }
