@@ -355,12 +355,19 @@ section{
     background-repeat: no-repeat;
     background-position: center;
 }
-.carousel-inner{
-    width: 100%;
+.carousel{
+    width: 60%;
+    height: 600px;
+}
+.carousel-img{
+    display: flex;
+    width: 60%;
+    height: 600px;
 }
 @media (max-width: 765px) {    
-    .carousel-inner{
-        width: 100%;
+    .callserv{
+        height: 700px;
+        width: 300px;
     }
     .nosotros-call{
         height: 550px;
