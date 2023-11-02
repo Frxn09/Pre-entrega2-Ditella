@@ -355,7 +355,13 @@ section{
     background-repeat: no-repeat;
     background-position: center;
 }
+.carousel-inner{
+    width: 100%;
+}
 @media (max-width: 765px) {    
+    .carousel-inner{
+        width: 100%;
+    }
     .nosotros-call{
         height: 550px;
         width: 250px;
