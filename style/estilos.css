@@ -172,8 +172,7 @@ section{
 }
 
 .iframe-call{
-    margin-left: row-reverse;
-    color: white;
+    color: black;
 }
 
 .card-img1{
@@ -355,4 +354,37 @@ section{
     height: 750px;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media (max-width: 765px) {    
+    .nosotros-call{
+        height: 550px;
+        width: 250px;
+    }
+    .maincon{
+        height: 100px;
+    }
+    .iframe-call{
+        width: 320px;
+    }
+    }
+    .footer{
+        padding-top: 10px;
+        height: 70px;
+    }
+    header{
+        height: 100px;
+    }
+    .logo-img{
+        height: 40px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    main.home {
+        height: 600px;
+    }
+    .call {
+        width: 80%;
+        font-size: 14px;
+    }
 }
